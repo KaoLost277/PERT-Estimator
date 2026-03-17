@@ -1,4 +1,4 @@
-# 📊 PERT Estimator
+# 📊 PERT Estimator <!-- build trigger: fix-integrity-v1 -->
 
 **PERT Estimator** เป็นเครื่องมือบริหารจัดการโครงการมืออาชีพที่ใช้เทคนิค **Program Evaluation and Review Technique (PERT)** และ **Critical Path Method (CPM)** เพื่อการประมาณการระยะเวลาที่แม่นยำและการวิเคราะห์ความเสี่ยงที่จับต้องได้
 
