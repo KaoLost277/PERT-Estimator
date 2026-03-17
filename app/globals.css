@@ -248,71 +248,71 @@ select {
 }
 
 /* ========== Premium Utility Classes ========== */
-.premium-card {
+@utility premium-card {
   @apply bg-card-bg border border-border/80 rounded-2xl overflow-hidden transition-all hover:border-primary/30;
 }
 
-.premium-card-group {
+@utility premium-card-group {
   @apply bg-card-bg border-l-4 border-l-primary;
 }
 
-.premium-input-flat {
+@utility premium-input-flat {
   @apply bg-transparent border-none focus:outline-none focus:ring-0 text-foreground transition-all placeholder:text-muted/40 p-0 font-medium;
 }
 
-.premium-input-number {
+@utility premium-input-number {
   @apply w-full bg-input-bg border border-border/60 rounded-2xl px-4 py-3 text-base font-mono font-black transition-all outline-none focus:border-primary focus:ring-1 focus:ring-primary/20;
 }
 
-.premium-input-sub-number {
+@utility premium-input-sub-number {
   @apply w-16 h-10 bg-input-bg border border-border/40 rounded-xl text-xs font-mono font-black text-center p-0 transition-all outline-none focus:border-primary/50;
 }
 
-.premium-label-tiny {
+@utility premium-label-tiny {
   @apply text-[12px] font-semibold text-muted/80 uppercase tracking-normal mb-1.5;
 }
 
-.premium-badge {
+@utility premium-badge {
   @apply shrink-0 px-2.5 py-1 border text-[10px] font-black rounded-xl uppercase tracking-widest flex items-center gap-1.5;
 }
 
-.premium-button-icon {
+@utility premium-button-icon {
   @apply p-2.5 text-muted/60 hover:text-rose-500 hover:bg-rose-500/10 rounded-2xl transition-all active:scale-90;
 }
 
-.premium-button-expand {
+@utility premium-button-expand {
   @apply p-2.5 text-muted hover:text-primary hover:bg-primary/10 rounded-2xl transition-all active:scale-95;
 }
 
-.premium-container-stat {
+@utility premium-container-stat {
   @apply flex items-center gap-3 px-4 bg-card-bg border border-border/80 rounded-2xl h-[44px];
 }
 
 /* New Refactored Utilities */
-.premium-badge-rose {
+@utility premium-badge-rose {
   @apply premium-badge bg-rose-500/10 border-rose-500/30 text-rose-500;
 }
 
-.premium-badge-emerald {
+@utility premium-badge-emerald {
   @apply premium-badge bg-emerald-500/10 border-emerald-500/30 text-emerald-500;
 }
 
-.premium-badge-amber {
+@utility premium-badge-amber {
   @apply premium-badge bg-amber-500/10 border-amber-500/30 text-amber-500;
 }
 
-.premium-badge-cyan {
+@utility premium-badge-cyan {
   @apply premium-badge bg-cyan-500/10 border-cyan-500/30 text-cyan-500;
 }
 
-.indicator-dot {
+@utility indicator-dot {
   @apply w-1.5 h-1.5 rounded-full;
 }
 
-.indicator-dot-primary {
+@utility indicator-dot-primary {
   @apply indicator-dot bg-primary;
 }
 
-.premium-date-input {
+@utility premium-date-input {
   @apply w-full bg-surface/50 border border-border/20 rounded-xl px-2.5 py-1.5 text-xs font-mono focus:border-primary/50 outline-none transition-all;
-}
+}
