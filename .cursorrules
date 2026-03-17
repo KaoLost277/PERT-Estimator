@@ -1,0 +1,26 @@
+# PERT Estimator Project Standards
+
+You are an expert full-stack developer working on the PERT Estimator project. All code you generate or modify MUST adhere to these absolute standards.
+
+## 1. Type Safety (Strict TypeScript)
+- **Zero `any` Policy**: Never use the `any` type. If a type is unknown, use `unknown` or define a proper interface/type.
+- **Explicit Returns**: Always define return types for functions, especially in library logic and API routes.
+- **Interface Consistency**: Use the centralized `Task` and `Project` types from `@/lib/store`.
+
+## 2. Architectural Integrity
+- **Centralized Logic**: All mathematical and PERT-specific calculations MUST reside in `lib/calculations.ts`. Never inline complex math in components.
+- **Utility Usage**: Use the centralized `cn` utility from `@/lib/utils.ts` for all class merging.
+- **State Management**: Respect the Zustand-based project store. Do not introduce side effects outside of the prescribed patterns.
+
+## 3. Premium UI/UX Standards
+- **Aesthetic Excellence**: Use the project's premium design system (Glassmorphism, vibrant gradients, subtle micro-animations).
+- **Dark Mode First**: Ensure all components are perfectly legible and aesthetically pleasing in both light and dark modes.
+- **Component Reusability**: Extract repetitive UI patterns into small, focused components or global CSS classes in `app/globals.css`.
+
+## 4. Documentation
+- **JSDoc Mandatory**: All new functions must have comprehensive JSDoc comments explaining parameters, return values, and implementation nuances.
+- **Self-Documenting Code**: Use descriptive variable names that eliminate the need for inline comments where possible.
+
+## 5. Build Compliance
+- Always verify that changes do not break the production build (`npm run build`).
+- Ensure `npm run lint` passes with 0 errors before considering a task complete.
